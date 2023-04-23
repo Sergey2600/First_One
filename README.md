@@ -1,1 +1,1 @@
-# First_One
+Database preprocessing, exploratory data analysis, hypothesis testing
