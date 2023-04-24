@@ -1,1 +1,2 @@
-Database preprocessing, exploratory data analysis, hypothesis testing
+Database preprocessing, exploratory data analysis, hypothesis testing.
+Russian language
