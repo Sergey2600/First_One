@@ -1,0 +1,20 @@
+def main(input: str):
+    ms = input.split()
+    try:
+        if ((1 <= int(ms[0]) <= 10) and (1 <= int(ms[2]) <= 10) and len(ms) == 3):
+            if ms[1] == '+':
+                return str(int(ms[0]) + int(ms[2]))
+            elif ms[1] == '-':
+                return str(int(ms[0]) - int(ms[2]))
+            elif ms[1] == '*':
+                return str(int(ms[0]) * int(ms[2]))
+            elif ms[1] == '/':
+                return str(int(ms[0]) // int(ms[2]))
+            else:
+                return ('throws Exception')
+        else:
+            return ('throws Exception')
+    except:
+        return ('throws Exception')
+
+main(input())
